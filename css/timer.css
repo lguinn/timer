@@ -1,0 +1,148 @@
+/* timer.css
+   Lisa Guinn 2021
+*/
+
+/* try to stop the user agent from screwing things up */
+html, body, section, div, h1, h2, h3, h4, h5, h6, p, a, img, i, fieldset, form, label, 
+footer, header {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 1vw;
+ 	font: inherit;
+    text-indent: 0em;
+ 	vertical-align: baseline;  
+ }
+
+ #indexBody {
+    background-color:#cbcaf0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: #000000;
+    margin: 1%;  
+    padding: 1% 2% 1% 2%;
+	min-height: 100vh;
+    min-width: 350px;
+    display: flex;
+	flex-direction: column;
+}
+
+#timerBody {
+    background-image:url("../img/background-blue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#3d59d8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: #000000;
+    margin: 1%;  
+    padding: 1% 2% 1% 2%;
+	min-height: 100vh;
+    min-width: 350px;
+    display: flex;
+	flex-direction: column;
+}
+
+footer {
+    flex-grow: 1;
+    display: block;
+    font-size: 1vw;
+}
+
+h2 {
+    font-size:  3vw;
+    padding: 2% 0% 3% 0%;
+}
+
+input {
+    margin: 1%;
+}
+
+header {
+    display: none;
+}
+
+main {
+    display: block;
+    flex-grow: 7;
+}
+
+/* position the elements on the timer page */
+
+#left-panel {
+    display: inline-block;
+    font-size: 3vw;
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    vertical-align: top;
+    width: 45%;
+}
+
+#right-panel {
+    display:inline-block;
+    padding-left: 5%;
+    padding-top: 20%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    vertical-align: top;
+    width: 38%;
+}
+
+#right-panel-text {
+    display: block;
+    font-size: 3.5vw;
+}
+
+#right-panel-timer {
+    background-color:#ffffff;
+    color: #000000;
+    display: block;
+    padding-top: 5%;
+    font-size: 4vw;
+    text-align: center;
+    width: 50%;
+}
+
+/* buttons */
+
+#timer-button {
+    color:#ffffff;
+    background-color: #2a07f1;
+    border-color: #021b7e;
+    border-width: 1px;
+    height: 2vh;
+    width: 25%;
+    min-width: 3em;
+    min-height: 3em;
+}
+
+#control-button {
+    color:#000000;
+    background-color: #ffffff;
+    border-color: #021b7e;
+    border-width: 1px;
+    height: 2vh;
+    width: 10%;
+    min-width: 6em;
+    min-height: 2em;
+}
+
+/*set the width for the input fields on the form */
+
+#name {
+    width:70%;
+    min-height: 2em;
+}
+
+#minutes {
+    width: 5%;
+    min-height: 2em;
+}
+
+#descr {
+    width:70%;
+    min-height: 2em;
+}

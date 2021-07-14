@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Set a Timer!</title>
+        <link rel="icon" type="image/png" href="img/favicon.png" >
+        <link rel="stylesheet" href="css/timer.css">
+        <script src="https://kit.fontawesome.com/a3431cee10.js" crossorigin="anonymous"></script>
+        <script src = "js/timer.js"></script>
+    </head>
+    <body onload="initTimer()" id="timerBody">
+        <header>
+            <p id="timer-value">10</p>
+        </header>
+        <main>
+            <section id="left-panel">
+                <p id="name">course-name-placeholder</p>
+                <button id="control-button" type="button" onclick="startTimer()"><i class="fas fa-play"></i>&nbsp;Start</button>
+            </section>
+            <section id="right-panel">
+                <div id="right-panel-text">
+                    <p id="descr">timer-descr-placeholder</p>
+                </div>
+                <div id="right-panel-timer">
+                    <p><span id="timer">min-placeholder</span></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <p>&copy; 2021 - Copyright Google. All rights reserved.</p>
+            <p>
+                <a href="#" class="footer-link"><i class="fas fa-arrow-circle-up"></i>&nbsp;Back to top</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="index.html" class="footer-link"><i class="fas fa-home"></i>&nbsp;Back to Home</a>
+            </p>
+        </footer>
+    </body>
+</html>
